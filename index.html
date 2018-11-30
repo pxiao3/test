@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 200%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand">Relaxing</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="https://play.google.com/music/listen#/home">Popular Music</a></li>
+		<li class="active"><a href="https://www.greenmangaming.com/best-games/best-pc-games-2017/">Top 10 Games</a></li>
+		<li class="active"><a href="https://www.imdb.com/list/ls027328830/">Action Movies</a></li>
+		<li class="active"><a href="https://www.calstatela.edu/givenow/secured/cal-state-la-food-and-housing-security-initiatives">Donates</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://myaccount.google.com/"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
+		<li><a href="https://accounts.google.com/signup/v2/webcreateaccount?hl=en-GB&flowName=GlifWebSignIn&flowEntry=SignUp"><span class="glyphicon glyphicon-sign up"></span> Sign up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+	  <a href="https://www.youtube.com/channel/UCE80FOXpJydkkMo-BYoJdEg"><span class="icon logins"></span><p>Pop Music</p></a>
+	  <a href="https://www.wildtangent.com/channels/web-games"><span class="icon logins"></span><p>Web Games</p></a>
+      <a href="https://sketchybones.com/"><span class="icon logins"></span><p>Coming Soon</p></a>
+    </div>
+    <div class="col-sm-8 text-left">
+		<a href="https://geniustests.com/" class="btn btn-primary my-2">IQ test</a>
+        <a href="https://www.dmv.ca.gov/portal/dmv/detail/portal/foa/welcome?localeName=en" class="btn btn-primary my-2">DMV Appointment</a>
+	</div>
+	
+
+	  
+      <div class="col-md-4">
+              <div class="Music">
+				<h1>Music</h1>
+                <img class="music1" src="http://www8.scholastic.co.uk/tomgatesworld/wp-content/uploads/header-music.png" alt="music" width="300" height="150">
+                <div class="music2">                  
+                    <div class="btn-group">
+                      <a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                    </div>
+                    <small class="text-muted">1254 views</small>
+                </div>
+              </div>
+            </div>
+
+		<div class="col-md-4">
+              <div class="game">
+				<h1>Games</h1>
+                <img class="games1" src="https://dl1.cbsistatic.com/i/r/2018/01/04/a5e173e6-b54f-4d40-80fd-daa30e28195c/resize/696xauto/cc7b83ad4f1625dc0c91f6e4f97d854e/pokemon-go-promo-570.jpg" alt="music" width="350">
+                <div class="games2">                  
+                    <div class="btn-group">
+                      <a href="http://www.addictinggames.com/"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                    </div>
+                    <small class="text-muted">1036 views</small>
+                </div>
+              </div>
+            </div>
+			
+		<div class="col-md-4">
+              <div class="movies">
+				<h1>Movies</h1>
+                <img class="movies1" src="https://cdn20.patchcdn.com/users/22924509/20180619/041753/styles/T800x600/public/processed_images/jag_cz_movie_theater_retro_shutterstock_594132752-1529438777-6045.jpg" alt="music" width="300">
+                <div class="movies2">                  
+                    <div class="btn-group">
+                      <a href="https://www.amctheatres.com/movies"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                    </div>
+                    <small class="text-muted">928 views</small>
+                </div>
+              </div>
+            </div>
+			
+		<div class="col-md-4">
+              <div class="travel">
+				<h1>Travel</h1>
+                <img class="travel1" src="https://stemcell.keck.usc.edu/wp-content/uploads/2017/11/150324_flights-hero-image_1330x742.jpg" alt="travel" width="350">
+                <div class="travel2">                  
+                    <div class="btn-group">
+                    <a href="https://www.cheapoair.com/"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                    </div>
+                    <small class="text-muted">603 views</small>
+                </div>
+              </div>
+            </div>
+	  
+   
+    
+    </div>
+
+  </div>
+</div>
+
+
+</body>
+<footer class="container-fluid text-center">
+  <p>Coming Soon!</p>
+</footer>
+</html>
